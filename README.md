@@ -16,7 +16,7 @@ About OpenMP (https://www.openmp.org/about/)
 **Open a powershell instance inside the folder you downloaded this repo**
 
 To Compile on Win Powershell:
-$: gcc -fopenmp <file_name>.c -o parallel_program
+$: gcc -fopenmp test.c -o parallel_program
 
 To execute: 
 $:parallel_program.exe
@@ -27,7 +27,7 @@ $:parallel_program.exe
 
 usr@host_name:<path_to_file>$ git clone https://github.com/vlocateli/omp/
 
-usr@host_name:<path_to_file>$gcc -fopenmp <file_name>.c -o parallel_program
+usr@host_name:<path_to_file>$gcc -fopenmp test.c -o parallel_program
 
 usr@host_name:<path_to_file>$./parallel_program
 
