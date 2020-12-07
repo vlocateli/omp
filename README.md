@@ -25,8 +25,8 @@ $:parallel_program.exe
 
 *Linux*
 
-usr@host_name<path_to_file>$gcc -fopenmp <file_name>.c -o parallel_program
+usr@host_name:<path_to_file>$gcc -fopenmp <file_name>.c -o parallel_program
 
-usr@host_name<path_to_file>$./parallel_program
+usr@host_name:<path_to_file>$./parallel_program
 
 **-------------------**
