@@ -13,13 +13,15 @@ About OpenMP (https://www.openmp.org/about/)
 
 *Windows*
 
-**Open a powershell instance inside the folder you downloaded this repo**
+**Extract the .zip folder**
 
-To Compile on Win Powershell:
+**Open a powershell instance inside the folder you extracted this repo**
+
+To Compile on Windows Powershell:
 $: gcc -fopenmp test.c -o parallel_program
 
 To execute: 
-$:parallel_program.exe
+$:./parallel_program.exe
 
 **-------------------**
 
