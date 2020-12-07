@@ -25,7 +25,7 @@ $:parallel_program.exe
 
 *Linux*
 
-usr@host_name:<path_to_file>$ git clone (https://github.com/vlocateli/omp/)
+usr@host_name:<path_to_file>$ git clone https://github.com/vlocateli/omp/
 
 usr@host_name:<path_to_file>$gcc -fopenmp <file_name>.c -o parallel_program
 
