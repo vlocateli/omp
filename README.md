@@ -34,7 +34,9 @@ $:./parallel_program.exe
 
 1) usr@host_name:<path_to_file>$ git clone https://github.com/vlocateli/omp/
 
-2) usr@host_name:<path_to_file>$gcc -fopenmp test.c -o parallel_program
+2)usr@host_name:<path_to_file>$ cd /omp
+
+3) usr@host_name:<path_to_file>$gcc -fopenmp test.c -o parallel_program
 
 3) usr@host_name:<path_to_file>$./parallel_program
 
