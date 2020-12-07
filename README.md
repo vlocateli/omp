@@ -3,8 +3,8 @@
 Programming examples using OpenMP library.
 
 **------------**
-About OpenMP (https://www.openmp.org/about/)
-
+About OpenMP -> (https://www.openmp.org/about/)
+**------------**
 *============*
 
 **WARNING: You need gcc with OpenMP.**
