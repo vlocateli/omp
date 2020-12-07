@@ -16,24 +16,26 @@ About OpenMP -> (https://www.openmp.org/about/)
 
 *Windows*
 
-**Extract the .zip folder**
+1)**Download the contents of the repo as .zip**
 
-**Open a powershell instance inside the folder you extracted this repo**
+2)**Extract the .zip folder**
 
-To Compile on Windows Powershell:
+3)**Open a powershell instance inside the folder you extracted this repo**
+
+4)To Compile on Windows Powershell:
 $: gcc -fopenmp test.c -o parallel_program
 
-To execute: 
+5)To execute: 
 $:./parallel_program.exe
 
 **-------------------**
 
 *Linux*
 
-usr@host_name:<path_to_file>$ git clone https://github.com/vlocateli/omp/
+1)usr@host_name:<path_to_file>$ git clone https://github.com/vlocateli/omp/
 
-usr@host_name:<path_to_file>$gcc -fopenmp test.c -o parallel_program
+2)usr@host_name:<path_to_file>$gcc -fopenmp test.c -o parallel_program
 
-usr@host_name:<path_to_file>$./parallel_program
+3)usr@host_name:<path_to_file>$./parallel_program
 
 **-------------------**
