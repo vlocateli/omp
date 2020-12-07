@@ -15,16 +15,6 @@ int  main(void){
 	}
 
 
-  printf("vetor = [");
-  #pragma omp for
-  for(i=0;i<5;i++)
-    printf(" %02d ",vetor[i]);
-
-  printf("]\n");  
-
-	printf("soma  = %02d\n",soma);
- 	return 0;
-  
 
 }
 
