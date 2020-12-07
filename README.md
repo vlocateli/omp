@@ -1,5 +1,7 @@
 # -- omp code examples ---
+
 Programming examples using OpenMP library.
+
 **------------**
 About OpenMP (https://www.openmp.org/about/)
 
