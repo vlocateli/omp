@@ -1,3 +1,19 @@
+/*
+THIS PROGRAMS DEMONSTRATES THE USE OF #pragma omp for 
+---------
+To compare the speed of a program, you can use:
+
+gcc soma_pll.c -fopenmp -o parallel_program 
+
+The command above will use parallelism.
+
+gcc soma_pll.c -o parallel_program
+
+The command above will not use parallelism (thus will be compiled as a normal serial C program)
+
+*/
+
+
 #include<stdio.h>
 #include<stdlib.h>
 #include<omp.h>
