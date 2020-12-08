@@ -1,3 +1,7 @@
+// THIS PROGRAM IS INTENDED AS A TEST FOR THE OPENMP API 
+
+
+
 #include<stdio.h>
 #include<omp.h>
 
