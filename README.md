@@ -8,9 +8,6 @@ About OpenMP -> (https://www.openmp.org/about/)
 
 *============*
 
-**WARNING: You need gcc with OpenMP.**
-
-**$ -> Represents the shell.**
 
 *============*
 
@@ -23,21 +20,27 @@ About OpenMP -> (https://www.openmp.org/about/)
 3) **Open a powershell instance inside the folder you extracted this repo**
 
 4) To Compile on Windows Powershell:
-$: gcc -fopenmp test.c -o parallel_program
-
+5) ```powershell
+    gcc -fopenmp test.c -o parallel_program
+```
 5) To execute: 
-$:./parallel_program.exe
-
+``powershell
+./parallel_program.exe
+```
 **-------------------**
 
 *Linux*
 
-1) usr@host_name:<path_to_file>$ git clone https://github.com/vlocateli/omp/
-
-2) usr@host_name:<path_to_file>$ cd omp
-
-3) usr@host_name:<path_to_file>$gcc -fopenmp test.c -o parallel_program
-
-3) usr@host_name:<path_to_file>$./parallel_program
-
+1)```bash
+ git clone https://github.com/vlocateli/omp/
+```
+2) ```bash
+ cd omp
+```
+3) ```bash
+gcc -fopenmp test.c -o parallel_program
+```
+3)```bash
+/parallel_program
+``
 **-------------------**
