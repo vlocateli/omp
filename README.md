@@ -24,7 +24,7 @@ About OpenMP -> (https://www.openmp.org/about/)
     gcc -fopenmp test.c -o parallel_program
 ```
 5) To execute: 
-``powershell
+```powershell
 ./parallel_program.exe
 ```
 **-------------------**
