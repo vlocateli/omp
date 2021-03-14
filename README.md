@@ -20,7 +20,7 @@ About OpenMP -> (https://www.openmp.org/about/)
 3) **Open a powershell instance inside the folder you extracted this repo**
 
 4) To Compile on Windows Powershell:
-5) ```powershell
+```powershell
     gcc -fopenmp test.c -o parallel_program
 ```
 5) To execute: 
