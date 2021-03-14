@@ -31,16 +31,20 @@ About OpenMP -> (https://www.openmp.org/about/)
 
 *Linux*
 
-1)```bash
+1)
+```bash
  git clone https://github.com/vlocateli/omp/
 ```
-2) ```bash
+2) 
+```bash
  cd omp
 ```
-3) ```bash
+3) 
+```bash
 gcc -fopenmp test.c -o parallel_program
 ```
-3)```bash
+4)
+```bash
 /parallel_program
 ``
 **-------------------**
