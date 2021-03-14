@@ -45,6 +45,6 @@ gcc -fopenmp test.c -o parallel_program
 ```
 4)
 ```bash
-/parallel_program
+./parallel_program
 ```
 **-------------------**
